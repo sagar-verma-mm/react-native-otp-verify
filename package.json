@@ -1,0 +1,46 @@
+{
+  "name": "react-native-otp-verify",
+  "version": "2.0.0",
+  "description": "React native sms verification without additional permissions.",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "Android",
+    "SMS",
+    "OTP",
+    "Verification",
+    "Sms-retreiver"
+  ],
+  "repository": "https://github.com/prajnab-mm/react-native-otp-verify",
+  "author": "Prajna Boloor prajna.boloor@mutualmobile.com (https://github.com/prajnab-mm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prajnab-mm/react-native-otp-verify/issues"
+  },
+  "homepage": "https://github.com/prajnab-mm/react-native-otp-verify#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNOtpVerifySpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.rtnOtpVerify"
+    }
+
+  }
+}
